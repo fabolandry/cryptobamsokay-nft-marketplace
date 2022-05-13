@@ -7,7 +7,7 @@ import {
   marketplaceAddress
 } from '../config'
 
-import NFTMarketplace from '../contracts/abi/NFTMarketplace.json' 
+import NFTMarketplace from '../contracts/abi/NFTMarketplace.json'
 
 export default function Home() {
   const [nfts, setNfts] = useState([])
