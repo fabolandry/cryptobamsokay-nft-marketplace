@@ -4,7 +4,7 @@ import Link from 'next/link'
 function MyApp({ Component, pageProps }) {
   return (
     <div>
-      <nav className="border-b p-6">
+      <nav className="border-b p-2">
         <p className="text-4xl font-bold">CryptoBamsOkay-NFT</p>
         <div className="flex mt-4">
           <Link href="/">
