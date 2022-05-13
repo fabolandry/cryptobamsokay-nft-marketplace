@@ -10,6 +10,7 @@ import {
 
 import NFTMarketplace from '../contracts/abi/NFTMarketplace.json'
 
+
 export default function MyAssets() {
   const [nfts, setNfts] = useState([])
   const [loadingState, setLoadingState] = useState('not-loaded')
